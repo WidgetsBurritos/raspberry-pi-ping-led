@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "412d356fbd7f159839f3d69fe6c69aba",
+    "hash": "97edab7b123b3fa4ca283ee94f5087d9",
     "packages": [
         {
             "name": "ronanguilloux/php-gpio",
@@ -66,7 +66,10 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "ext-bcmath": "*",
+        "ext-ncurses": "*",
+        "ext-sockets": "*"
     },
     "platform-dev": []
 }
