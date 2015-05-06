@@ -1,0 +1,18 @@
+{
+    "name": "widgetsburritos/raspberry-pi-ping-led",
+    "description": "Tests for packet loss.  Lights up an LED and keeps track of recent outages.",
+    "homepage": "https://github.com/WidgetsBurritos/raspberry-pi-ping-led",
+    "authors": [
+	{
+	     "name": "David Stinemetze"
+	}
+    ],
+    "require": {
+	"php": ">=5.3.0",
+	"ext-bcmath": "*",
+	"ext-ncurses": "*",
+	"ext-sockets": "*",
+        "ronanguilloux/php-gpio": "1.0.*"
+    },
+    "version": "0.1.0" 
+}
